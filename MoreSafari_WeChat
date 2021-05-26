@@ -1,0 +1,15 @@
+#!/bin/zsh
+mkdir /Applications/ScriptsByDJC
+echo '#!/bin/zsh\nopen -n /Applications/Safari.app\nopen -n /Applications/Safari.app\nopen -n /Applications/Safari.app\nopen -n /Applications/Safari.app\nopen -n /Applications/Safari.app\nopen -n /Applications/Safari.app\n'>>/Applications/ScriptsByDJC/OpenSixSafariByDJC
+
+echo '#!/bin/zsh\nkillall Safari'>>/Applications/ScriptsByDJC/CloseAllSafariByDJC
+
+echo '#!/bin/zsh\nkillall WeChat'>>/Applications/ScriptsByDJC/CloseAllWeChatByDJC
+
+echo '#!/bin/zsh\n nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 &\n nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 &'>>/Applications/ScriptsByDJC/OpenTwoWechatByDJC
+
+sudo chmod 775 /Applications/ScriptsByDJC/OpenSixSafariByDJC
+sudo chmod 775 /Applications/ScriptsByDJC/CloseAllSafariByDJC
+sudo chmod 775 /Applications/ScriptsByDJC/CloseAllWeChatByDJC
+sudo chmod 775 /Applications/ScriptsByDJC/OpenTwoWechatByDJC
+
